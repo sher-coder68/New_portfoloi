@@ -1,0 +1,15 @@
+{
+  "name": "khan-sher-portfolio-fullstack",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Khan Sher - Full-Stack Personal Portfolio (React + Express + MongoDB)",
+  "scripts": {
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "build:frontend": "npm run build --prefix frontend",
+    "test:frontend": "npm test --prefix frontend",
+    "test:backend": "npm test --prefix backend",
+    "test": "npm run test:backend ; npm run test:frontend"
+  }
+}
+
